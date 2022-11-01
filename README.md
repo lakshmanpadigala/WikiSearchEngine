@@ -13,8 +13,8 @@ Developed the command line based search engine on entire Wikipedia English dump 
 
 ## Searching:
 + The query given is parsed, processed and given to the respective query handler(simple or field).
-+ One by one word is searched in vocabulary and the file number is noted.
-+ The respective field files are opened and the document ids along with the frequencies are noted.
++ One by one word is searched in secondary index file and the file number is noted.
++ The respective files are opened and the document ids along with the frequencies are noted.
 + The documents are ranked on the basis of TF-IDF scores.
 + The title of the documents are extracted using title.txt
 
